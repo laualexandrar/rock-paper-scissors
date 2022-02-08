@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header class="title-subtitle">
+        <h1 class="title">Rock Paper Scissors!</h1>
+        <h2 class="subtitle">let's play against the machine!</h2>
+    </header>
+    <section class= "main-container">
+
+        <p>Start writing rock, paper or scissors:</p>
+        <form class="form-container">
+            <label for="input-user-option" class="label">Enter your option:</label>
+            <input type="text" id="input-user-option" placeholder="rock... paper... scissors..." class="input-user">
+            <button type="button" onclick="letsPlay()" class="button-lets-play">
+                Let's Play!
+            </button>
+        </form>
+        <p id="ResultGame" class= "result-paragraph"></p>
+    </section>
+    <script src="./rock-paper-scissors.js"></script>
+
+</body>
+</html>
